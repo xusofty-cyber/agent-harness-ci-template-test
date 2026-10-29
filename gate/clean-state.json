@@ -1,0 +1,1 @@
+{"build": "python3 -m py_compile example.py tests/test_example.py gate/pass-gate.py scripts/gate-prepush-check.py", "start": "python3 gate/pass-gate.py status", "test": "python3 tests/test_example.py"}

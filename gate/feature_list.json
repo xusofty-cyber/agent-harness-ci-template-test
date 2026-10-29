@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "project": "ci-template-test",
+  "items": [
+    {
+      "id": "ex-example-passes",
+      "priority": "p0",
+      "area": "gate",
+      "title": "Minimal example check passes",
+      "user_visible_behavior": "python3 tests/test_example.py prints 'example ok' with exit 0.",
+      "status": "passing",
+      "verification": {
+        "command": "python3 tests/test_example.py",
+        "timeout_seconds": 60
+      },
+      "notes": "Minimal gated example for CI template verification only.",
+      "evidence": {
+        "command": "python3 tests/test_example.py",
+        "exit_code": 0,
+        "ran_at": "2026-10-29T13:48:02Z",
+        "output_tail": "example ok\n",
+        "output_sha256": "2c350c0c3c2321c50a53ef6fe50f357e1c480b541ff293fe8d456c3a067552b3"
+      }
+    }
+  ]
+}

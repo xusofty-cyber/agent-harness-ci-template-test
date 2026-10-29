@@ -1,0 +1,2 @@
+{"seq": 1, "ts": "2026-10-29T13:48:02Z", "actor": "agent", "event": "started", "item_id": "ex-example-passes", "detail": "Minimal example check passes"}
+{"seq": 2, "ts": "2026-10-29T13:48:02Z", "actor": "agent", "event": "verified", "item_id": "ex-example-passes", "detail": "verification passed (exit 0): python3 tests/test_example.py"}
