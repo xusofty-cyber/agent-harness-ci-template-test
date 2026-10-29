@@ -37,4 +37,6 @@ is expected to FAIL at step 1 (re-verification) and therefore block.
 - Round 1 (intentionally failing passing item): workflow run
   https://github.com/xusofty-cyber/agent-harness-ci-template-test/actions/runs/40950877919
   concluded **failure** at step 1 (re-verification), as designed.
-- Round 2 (clean): see the Actions run for the round-2 commit below.
+- Round 2 (clean passing item): workflow run
+  https://github.com/xusofty-cyber/agent-harness-ci-template-test/actions/runs/40950990719
+  concluded **success** (both steps pass).
