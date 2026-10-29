@@ -6,7 +6,7 @@ example only.
 
 - Template source: `templates/ci-gate-check.yml` from
   [xusofty-cyber/agent-harness](https://github.com/xusofty-cyber/agent-harness),
-  main `5fd31c7`, copied verbatim to `.github/workflows/gate-check.yml`.
+  main `9dcf734`, copied verbatim to `.github/workflows/gate-check.yml`.
 - Checker source: `templates/pre-push-gate/gate-prepush-check.py` from the
   same main, copied verbatim to `scripts/gate-prepush-check.py`.
 - Gate script: `gate/pass-gate.py` from the same main, copied verbatim.
@@ -34,4 +34,7 @@ is expected to FAIL at step 1 (re-verification) and therefore block.
 
 ## Results
 
-(Updated after round 2; see commit history and Actions runs.)
+- Round 1 (intentionally failing passing item): workflow run
+  https://github.com/xusofty-cyber/agent-harness-ci-template-test/actions/runs/40950877919
+  concluded **failure** at step 1 (re-verification), as designed.
+- Round 2 (clean): see the Actions run for the round-2 commit below.
